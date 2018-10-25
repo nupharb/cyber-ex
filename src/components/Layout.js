@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import RGL, { WidthProvider } from 'react-grid-layout';
 
 const ReactGridLayout = WidthProvider(RGL);
