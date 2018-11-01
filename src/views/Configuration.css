@@ -1,0 +1,24 @@
+.menu-bar {
+  padding: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.main-wrap > div {
+  display: inline-block;
+}
+
+.config-layout-wrap {
+  width: 85%;  
+}
+
+.feature-wrap {
+  width: 15%;
+}
+
+.feature-title {
+  font-size: 19px;
+  font-weight: 500;
+  padding: 0 0 16px 3px;
+  border-bottom: 1px solid #000;
+  margin: 0 10px 25px 10px;
+}

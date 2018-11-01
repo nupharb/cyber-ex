@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Layouts from './components/Layouts'
-import ConfigPage from './components/ConfigPage'
+import Layouts from './views/Layouts'
+import ConfigPage from './views/Configuration'
 import './App.css';
 import '../node_modules/react-grid-layout/css/styles.css';
 import '../node_modules/react-resizable/css/styles.css';

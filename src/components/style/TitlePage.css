@@ -1,0 +1,11 @@
+.title {
+  border-bottom: 2px solid #969494;
+  margin: 15px 20px 0 20px;
+  padding-bottom: 15px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.config-layout-wrap .title {
+  margin: 15px 10px 0 10px;
+}

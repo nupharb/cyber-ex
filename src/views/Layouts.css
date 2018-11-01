@@ -1,0 +1,18 @@
+.menu-bar {
+  padding: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.layouts-wrap {
+  margin: 1% 3%;
+}
+
+.layout-wrap {
+  width: 48%;
+  display: inline-block;
+  margin: 1%;
+}
+
+.layout-wrap > a {
+  border: 1px solid #000;
+}
