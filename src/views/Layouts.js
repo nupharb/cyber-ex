@@ -7,7 +7,6 @@ import './Layouts.css';
 
 class Layouts extends Component {
 	render() {
-		
 		return (
 			<div className='layouts-page'>
         <div className='menu-bar'></div>

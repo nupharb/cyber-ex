@@ -9,7 +9,6 @@ import '../node_modules/react-resizable/css/styles.css';
 
 class App extends Component {  
   render() {
-    
     return (
       <Router>
         <div className="App">
