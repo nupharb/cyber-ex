@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import featuredLayout from './featuredLayout';
+import handleLayouts from './handleLayouts';
+//import storedData from './storedData';
 
 export default combineReducers({
-    featured: featuredLayout
+    allLayouts: handleLayouts
+    //storedData: storedData
 });

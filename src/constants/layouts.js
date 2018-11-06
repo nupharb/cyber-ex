@@ -1,7 +1,7 @@
 const marginBetweenCells = [10, 10];
 const containerPadding = [10, 10];
 
-export const layouts = [
+const layouts = [
   {
     id: 1,
     gridLayout: {
@@ -10,7 +10,7 @@ export const layouts = [
       margin: marginBetweenCells,
       containerPadding: containerPadding,
       layout: [{
-          component: 0, 
+          component: 3, 
           innerLayout: {x: 0, y: 0, w: 2, h: 1, static: true}
         }, {
           component: 3,
@@ -83,5 +83,7 @@ export const layouts = [
     }
   }
 ];
+
+export default layouts;
 
 

@@ -1,8 +1,4 @@
-import { layouts } from '../constants/layouts';
-
-const defaultState = layouts;
-
-const featuredLayout = ( state = defaultState, action) => {
+const handleLayouts = ( state = [], action) => {
     switch(action.type) { 
         case "ADD_FEATURE" : {
             const newState = [...state];
@@ -17,4 +13,4 @@ const featuredLayout = ( state = defaultState, action) => {
     }
 }
 
-export default featuredLayout;
+export default handleLayouts;

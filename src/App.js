@@ -11,12 +11,11 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className='App'>
           <Route exact path='/layouts' component={Layouts}></Route>
           <Route path='/configuration/:id' component={ConfigPage}></Route>
-        </div> 
+        </div>
       </Router>
-      
     );
   }
 }

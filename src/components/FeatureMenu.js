@@ -1,7 +1,11 @@
 import React from 'react';
 import { components } from './Squares/index'
 
-const FeatureMenu = ({ onDragStart }) => {
+const DragStart = (event, index) => {
+  event.dataTransfer.setData('text/plain', index);
+}
+
+const FeatureMenu = () => {
   return (
     <div className='feature-wrap'>
       <div className='feature-title'>Components</div>
@@ -10,7 +14,7 @@ const FeatureMenu = ({ onDragStart }) => {
           key={index}
           className='feature'
           draggable={true}
-          onDragStart={(event) => onDragStart(event, index)}
+          onDragStart={(event) => DragStart(event, index)}
         />
       ))}
     </div>
